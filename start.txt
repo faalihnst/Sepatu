@@ -1,0 +1,17 @@
+Laporan Penjelasan tentang Pembuatan dan Pengembangan Web
+by : 
+Natillah Faalih Nanda Mustika Nasution (140810170044)
+Ghema Allan Ferdiansyah 	       (140810170048)
+Muhammad Fakhri 		       (140810170026)
+									Web toko sepatu olahraga
+1. Penjelasan
+	Web ini menyediakan layanan beli sepatu. Kita membuat toko ini untuk mempermudah orang orang yang ingin membeli sepatu sehingga tidak perlu repot repot lagi untuk
+pergi ke toko fisik untuk membeli sepatu. Dapat berupa pre-order atau ready stock. Umumnya web ini menjual sepatu dengan brand Nike, Air Jordan, dan Adidas tapi tidak
+menutup kemungkinan bagi web ini untuk menjual brand sepatu lain tergantung permintaan pasar.
+
+2. Fungsi
+	Web ini menyediakan fungsi memesan sepatu dan juga login. Para pengguna wajib untuk login sebelum memesan. Pada tiap akun terdapat alamat dan juga ukuran sepatu pengguna
+sehingga saat pemesanan tidak perlu repot lagi untuk menyantumkan alamat dan juga ukuran sepatu. Terdapat fungsi penjualan dan pembelian di web ini.
+
+3. Target pengguna
+	Target pengguna adalah semua umur, laki-laki atau perempuan yang membutuhkan sepatu
