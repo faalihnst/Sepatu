@@ -11,7 +11,8 @@ menutup kemungkinan bagi web ini untuk menjual brand sepatu lain tergantung perm
 
 2. Fungsi
 	Web ini menyediakan fungsi memesan sepatu dan juga login. Para pengguna wajib untuk login sebelum memesan. Pada tiap akun terdapat alamat dan juga ukuran sepatu pengguna
-sehingga saat pemesanan tidak perlu repot lagi untuk menyantumkan alamat dan juga ukuran sepatu. Terdapat fungsi penjualan dan pembelian di web ini.
+sehingga saat pemesanan tidak perlu repot lagi untuk menyantumkan alamat dan juga ukuran sepatu. Terdapat fungsi penjualan dan pembelian di web ini. Ada juga fungsi yang melayani pre-order
+untuk pelanggan.
 
 3. Target pengguna
 	Target pengguna adalah semua umur, laki-laki atau perempuan yang membutuhkan sepatu
