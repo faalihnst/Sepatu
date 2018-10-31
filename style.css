@@ -3,10 +3,10 @@ body {
 	font-family:sans-serif,Helvetica;
 }
 nav{
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	display: inline;
+	/*grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: auto;
-	grid-gap: 1em;
+	grid-gap: 1em;*/
 	align-items: center;
 	text-align: center;
 	background: black;
@@ -21,16 +21,22 @@ nav{
     padding: 1em 1em;
 	}
 } 
+
 .navLinks {
 	text-decoration: none;
 	text-align: center;
 	font-size: 1.2em;
 	color: white;
 }
+.logo:hover{
+	text-decoration: none;
+	color:white;
+}
 .navLinks:hover {
   background-color: grey;
   color: white;
   padding: 1em 1em;
+  text-decoration: none;
 }
 .logo {
 	text-decoration: none;
@@ -38,31 +44,100 @@ nav{
 	font-size: 2.5em;
 	color: white;
 }
-.1{
-	grid-column: 1;
+.topnav input[type=text]{
+	float: none;
+	display: block;
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	padding: 22px;
 }
-.2{
-	grid-column: 2;
+.navtop{
+	text-decoration: none;
+	padding:20px 30px;
+	background-color: lightgrey;
+	width: 100%;
+	text-align: center;
 }
-.3{
-	grid-column: 3;
+
+.text-center{
+	text-align: center;
 }
-.4{
-	grid-column: 4;
+
+.nav-white{
+	color: white;
 }
-.5{
-	grid-column: 5;
+
+.navibar{
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
-.footer {
-	font-family:sans-serif,Helvetica;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-	height: 15%;
-    background-color: grey;
-    color: white;
-    text-align: center;
-	padding-left:5em;
-	font-size: 1.5em;
+.nav-black{
+	color: grey;
+}
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	width: 100%;
+	height: 15px;
+}
+/*
+.box-div{
+	width: auto;
+	padding: 125px;
+	border: 5px solid grey;
+	margin: 0;
+	background-color:
+	height: 100px; 
+}*/
+.no-margin{
+	margin: auto auto auto auto;
+}
+.no-margin-line{
+	margin: auto auto 40px auto;
+}
+.button{
+	background-color: grey;
+	color: white;
+	padding: 6px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.bayang{
+	opacity: 0.6;
+}
+.button:hover{opacity: 1}
+.text-center{
+	text-align: center;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+}
+img{
+	width:400px;
+	height: 300px;
+}
+.img-border{
+	border-bottom: 5px solid grey;
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.text-grey{
+	color: grey;
 }
