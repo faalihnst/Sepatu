@@ -1,0 +1,245 @@
+body {
+	margin:0;
+	font-family:sans-serif,Helvetica;
+	width:100%;
+}
+
+header{
+	position: fix;
+}
+nav{
+	display: inline;
+	/*grid-template-columns: repeat(5, 1fr);
+	grid-auto-rows: auto;
+	grid-gap: 1em;*/
+	align-items: center;
+	text-align: center;
+	background: black;
+	padding: 1em 1em;
+}
+
+@media screen and (max-width: 900px){
+	nav {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    padding: 1em 1em;
+	}
+} 
+
+.navLinks {
+	text-decoration: none;
+	text-align: centered;
+	font-size: 2em;
+	color: white;
+}
+.logo:hover{
+	text-decoration: none;
+	color:white;
+}
+.navLinks:hover {
+  background-color: grey;
+  color: white;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+.logo {
+	text-decoration: none;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+}
+.topnav input[type=text]{
+	float: none;
+	display: block;
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	padding: 22px;
+}
+.navtop{
+	text-decoration: none;
+	padding:20px 30px;
+	background-color: lightgrey;
+	width: 100%;
+	text-align: center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.nav-white{
+	color: white;
+}
+
+.navibar{
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+.nav-black{
+	color: grey;
+}
+hr {
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	width: 100%;
+	height: 15px;
+}
+
+.no-margin{
+	margin: auto auto auto auto;
+}
+.no-margin-line{
+	margin: auto auto 40px auto;
+}
+.button{
+	background-color: grey;
+	color: white;
+	padding: 6px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.bayang{
+	opacity: 0.6;
+}
+.button:hover{opacity: 1}
+.text-center{
+	text-align: center;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+}
+img{
+	width:400px;
+	height: 300px;
+}
+.img-border{
+	border-bottom: 5px solid grey;
+}
+.centered {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.text-grey{
+	color: white;
+	font-size:3.5em;
+}
+.footer {
+	font-family:sans-serif,Helvetica;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height: 12.5%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+	padding-left:5em;
+	font-size: 1em;
+}
+.box-margin{
+	margin-top: 2px;
+}
+
+.boks{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	padding: 10px;
+	border: 5px solid lightgrey;
+}
+.login{
+	margin: auto;
+	width: 40%;
+	border: 3px solid white;
+	padding: 10px;
+	color: white;
+	background-color: grey;
+}
+.button-login{
+	background-color: black;
+	color: white;
+	padding: 6px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-top: 15px;
+}
+.boks-login{
+	text-align: center;
+	font-family: sans-serif,Helvetica;
+	width: 40%;
+	height: 400px;
+	background-color: white;
+	border: 20px solid lightgrey;
+	left: 33.5%;
+}
+.boks-signup{
+	text-align: center;
+	font-family: sans-serif,Helvetica;
+	width: 50%;
+	height: 500px;
+	background-color: white;
+	padding: 10px;
+	border: 20px solid lightgrey;
+	left: 33.5%;
+}
+.bayang-sign{
+	font: bold;
+	opacity: 1;
+	cursor: pointer;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: lightgrey;
+}
